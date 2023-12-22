@@ -1,0 +1,111 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Hedvig Letters Serif', serif;
+	
+}
+.container{
+	background: rgb(243,28,9);
+	background: linear-gradient(97deg, rgba(243,28,9,1) 16%, rgba(255,128,0,1) 58%, rgba(255,128,180,1) 91%);
+}
+ .logo{
+	position: absolute;
+	width: 15%;
+	padding: 15px;
+}
+.navbar{
+	height: 12%;
+	display: flex;
+	align-items: center;
+}
+nav{
+	flex:1;
+	text-align: right;
+	box-sizing: border-box;
+	padding: 10px;
+	
+}
+
+nav ul li{
+	list-style: none;
+	display: inline-block;
+	margin-left: 60px;
+}
+nav ul li:after{
+	content: '';
+	background: #FE0623;
+	top: 100%;
+	left: 50%;
+}
+nav ul li:hover{
+	color: #F80BB2;
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 20px;
+
+}
+
+nav ul li a:hover{
+	content: '';
+	border-color: #fff;
+	border-style: double;	
+}
+.imgS1 img{
+	width: 15%;
+	height: auto;
+	
+	border-color: #F0FF01;
+	border-style: double;
+}
+.imgS1 h1{
+	margin-top: 40px;
+	font-size: 30px;
+	font-family: 'Kalnia', serif;
+	color: #fff;
+	text-align: center;
+}
+.imgS2 img{
+	width: 15%;
+	height: auto;
+	
+	border-color: #610505;
+	border-style: double;
+}
+.imgS2 h1{
+	margin-top: 40px;
+	font-size: 30px;
+	font-family: 'Kalnia', serif;
+	color: #fff;
+	text-align: center;
+}
+.imgS3 img{
+	width: 15%;
+	height: auto;
+	
+	border-color: #0CAE1B;
+	border-style: double;}
+.imgS3 h1{
+	margin-top: 40px;
+	font-size: 30px;
+	font-family: 'Kalnia', serif;
+	color: #fff;
+	text-align: center;
+}
+.imgS4 img{
+	width: 15%;
+	height: auto;
+	
+	border-color: #fff;
+	border-style: double;
+}
+.imgS4 h1{
+	margin-top: 40px;
+	font-size: 30px;
+	font-family: 'Kalnia', serif;
+	color: #fff;
+	text-align: center;
+	justify-content: center;
+}

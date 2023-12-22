@@ -1,0 +1,156 @@
+*{
+	padding: 0;
+	margin: 0;	
+}
+.container{
+	background: rgb(251,83,5);
+	background: linear-gradient(97deg, rgba(251,83,5,1) 38%, rgba(243,28,9,1) 61%, rgba(207,0,4,0.9864320728291317) 100%);	
+}
+body{
+	background: rgb(243,28,9);
+	background: linear-gradient(97deg, rgba(243,28,9,1) 16%, rgba(255,128,0,1) 58%, rgba(255,128,180,1) 91%);
+}
+body, textarea{
+	font-family: 'Hedvig Letters Serif', serif;
+}
+
+.container2{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100vh;
+}
+.form_box{
+	display: flex;
+	flex-direction: column;
+	background-color: #fff;
+	border-radius: 8px;
+	width: 500px;
+}
+.form_box .title{
+	padding: 24px 32px;
+	font-size: 24px;
+	border-bottom: thin solid #ccc;
+}
+.form_box form{
+	display: flex;
+	align-items: start;
+	flex-wrap: wrap;
+	padding: 32px;
+}
+.form_box input,
+.form_box textarea{
+	width: calc(50% - 8px);
+	height: 48px;
+	border-radius: 8px;
+	border: thin solid #999;
+	padding-left: 16px;
+	margin-bottom: 16px;
+	font-size: 16px;
+}
+.form_box input:first-child{
+	margin-right: 16px;
+}
+.form_box input[name=subject]{
+	width: 100%;
+}
+.form_box textarea{
+	width: 100%;
+	height: 80px;
+	padding: 16px;
+}
+.form_box button{
+	display: block;
+	border: none;
+	outline: none;
+	width: 180px;
+	height: 48px;
+	border-radius: 8px;
+	background: rgb(251,83,5);
+	background: linear-gradient(97deg, #f31c09, #ff80b4);
+	color: #fff;
+	font-size: 16px;
+	font-weight: bold;
+	cursor: pointer;
+}
+.form_box button:hover{
+	background: rgb(251,83,5);
+	background-color: #ff8000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ .logo{
+	position: absolute;
+	width: 15%;
+	padding: 15px;
+}
+.navbar{
+	height: 12%;
+	display: flex;
+
+	align-items: center;
+}
+nav{
+	flex:1;
+	text-align: right;
+	box-sizing: border-box;
+	padding: 10px;
+	
+}
+
+nav ul li{
+	list-style: none;
+	display: inline-block;
+	margin-left: 60px;
+}
+nav ul li:after{
+	content: '';
+	background: #FE0623;
+	top: 100%;
+	left: 50%;
+}
+nav ul li:hover{
+	color: #F80BB2;
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 20px;
+
+}
+
+nav ul li a:hover{
+	content: '';
+	border-color: #fff;
+	border-style: double;
+	
+	
+}

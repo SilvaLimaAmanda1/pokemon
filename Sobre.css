@@ -1,0 +1,117 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Hedvig Letters Serif', serif;
+	
+}
+.container{
+
+	background: rgb(251,83,5);
+	background: linear-gradient(97deg, rgba(251,83,5,1) 38%, rgba(243,28,9,1) 61%, rgba(207,0,4,0.9864320728291317) 100%);	
+}
+ .logo{
+	position: absolute;
+	width: 15%;
+	padding: 15px;
+}
+.navbar{
+	height: 12%;
+	display: flex;
+	align-items: center;
+}
+nav{
+	flex:1;
+	text-align: right;
+	box-sizing: border-box;
+	padding: 10px;
+	
+}
+
+nav ul li{
+	list-style: none;
+	display: inline-block;
+	margin-left: 60px;
+}
+nav ul li:after{
+	content: '';
+	background: #FE0623;
+	top: 100%;
+	left: 50%;
+}
+nav ul li:hover{
+	color: #F80BB2;
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 20px;
+
+}
+
+nav ul li a:hover{
+	content: '';
+	border-color: #fff;
+	border-style: double;	
+}
+.imgS img{
+	width: 20%;
+	height: auto;
+	margin-left: 50%;
+}
+.imgS h1{
+	margin-top: 50px;
+	font-size: 50px;
+	font-family: 'Kalnia', serif;
+	color: #fff;
+	text-align: center;
+}
+.imgS p{
+	margin-top: 10px;
+	font-size: 15px;
+	font-family: 'Delius Unicase', cursive;
+	color: white;
+	line-height: 25px;
+	text-align: left;
+}
+.imgS2 img{
+	width: 30%;
+	height: auto;
+	margin-left: 35%;
+}
+.imgS2 h1{
+	margin-top: 50px;
+	font-size: 50px;
+	font-family: 'Kalnia', serif;
+	color: #fff;
+	text-align: center;
+}
+.imgS2 p{
+	margin-top: 10px;
+	font-size: 15px;
+	font-family: 'Delius Unicase', cursive;
+	color: white;
+	line-height: 25px;
+	text-align: left;
+}
+.imgS3 img{
+	width: 50%;
+	height: auto;
+	margin-left: 30%;
+}
+.imgS3 h1{
+	margin-top: 50px;
+	font-size: 50px;
+	font-family: 'Kalnia', serif;
+	color: #fff;
+	text-align: center;
+}
+.imgS3 p{
+	margin-top: 10px;
+	font-size: 15px;
+	font-family: 'Delius Unicase', cursive;
+	color: white;
+	line-height: 25px;
+	text-align: left;
+}
+
